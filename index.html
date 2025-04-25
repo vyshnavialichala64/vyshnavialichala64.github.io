@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TrendWear - Clothing Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>TrendWear</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Style that Speaks</h2>
+    <p>Discover the latest fashion trends today!</p>
+    <button>Shop Now</button>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250" alt="T-shirt">
+        <h3>Casual T-Shirt</h3>
+        <p>₹499</p>
+        <button onclick="addToCart('Casual T-Shirt')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250" alt="Dress">
+        <h3>Summer Dress</h3>
+        <p>₹999</p>
+        <button onclick="addToCart('Summer Dress')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250" alt="Jeans">
+        <h3>Denim Jeans</h3>
+        <p>₹1199</p>
+        <button onclick="addToCart('Denim Jeans')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TrendWear. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
